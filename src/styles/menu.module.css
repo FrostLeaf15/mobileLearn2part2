@@ -1,0 +1,61 @@
+.menu-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: double;
+    border-width: 5px;
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+    height: 90%;
+    max-height: 1000px;
+}
+
+.judul {
+    display: flex;
+    justify-content: start;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.sub-judul {
+    display: flex;
+    justify-content: start;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.berita-utama {
+    background-image: url(../image/beritautama.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.berita-utama p {
+    color: black;
+    position: relative;
+    top: 125px;
+    right: 150px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.sub-berita {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}

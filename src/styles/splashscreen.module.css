@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 150px; /* Sesuaikan dengan ukuran yang sesuai */
+    height: auto; /* Sesuaikan dengan ukuran yang sesuai */
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 24px;
+}
